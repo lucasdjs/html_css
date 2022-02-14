@@ -1,0 +1,121 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color:rgb(169, 169, 169) ;
+ margin: 0;
+}
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;/*ajustar tamanho*/
+    background-position: right center; /*posicionar o texto para direita e no centro*/
+    background-size: cover;/*cover: apresenta a imagem inteira nem que corte algum pedaço*/
+    border-top: 1px solid transparent;
+    
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    
+
+}
+.hero-content h1{
+    text-transform: uppercase; /*A propriedade text-transform é usada para definir como as letras do texto serão apresentadas na tela.
+    uppercase	Todas as letras das palavras do texto sãol em maiúscula*/
+    font-size:56px;
+    text-shadow: 3px 3px 2px rgb(55, 54, 54);/*sombra: 1 valor = deslocamento x(eixo horizontal); 2 valor = deslocamento y(eixo vertical); 3 valor = esfumaçamento; 4 - cor do esfumaçamento;*/
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+
+}
+.card p{
+    font-size: 12px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    
+
+}
+.card-1, .card-2{
+margin-right: 2%;
+
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.content-header h2{
+background-color: rgb(221, 220, 220);
+padding: 10px;
+border-bottom: groove;
+border-bottom-width: 2px;
+border-bottom-color: rgb(223, 217, 217);
+}
+footer{
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.659);
+    padding:20px;
+    font-size: 20px;
+
+    
+    
+}
+footer p{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(21, 21, 21);
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px 0px -20px;
+    
+    border: 1px solid white;
+    
+ 
+}
+.hero nav a{
+    
+    background: rgba(0, 0, 0, 0.144);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;/*tira o sublinhado do link*/
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px; /*espaço entre as letras*/
+}
+.hero nav ul{
+   
+     text-align: right;
+}
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.514);
+
+}
+
+.hero-content p{
+background-color: rgba(0, 0, 0, 0.678);
+padding: 15px;
+display: inline-block;
+border-bottom: 2px solid white;
+
+}
