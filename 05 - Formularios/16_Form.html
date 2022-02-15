@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+
+    <style>
+        body{
+            font-family: tahoma;
+        }
+        .exemplo{
+            background-color: lavender;
+            padding: 20px;
+            border: 2px solid black ;
+            margin-bottom: 10px;
+        }
+        .login{
+            background-color: lavender;
+            padding: 20px;
+            border: 2px solid black ;
+        }
+    </style>
+</head>
+<body>
+    <div class="exemplo">
+   <h1>Exemplo de formulário</h1> 
+
+   <form action="http://google.com/search" method="GET" target="_blank">
+    <label for="txtbusca">Faça uma busca</label>
+    <input type="text" name="q" id="txtbusca">
+    <input type="submit" value="Enviar">
+   </form>
+    </div>
+
+    <div class="login">
+        <h1>Faça seu Login</h1>
+        <form action="http://google.com.br" method="get" target="_blank">
+        <label for="usuario">Usuário:</label>
+        <input type="text" name="q" id="usuario">
+        <label for="password">Senha: </label>
+        <input type="password" value="">
+        <input type="submit" value="Enviar">
+
+
+
+        </form>
+
+    </div>
+
+</body>
+</html>

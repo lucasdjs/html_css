@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+       
+       .formLogin{
+           width: 400px;
+           margin: 50px auto 0;
+           font-family: sans-serif;
+           
+       } 
+       .formLogin label{
+           margin-top: 25px;
+           display: block;
+           margin-bottom: 5px;
+       }
+       .formLogin fieldset{
+           background-color: rgba(34, 107, 136, 0.596);
+           border: none;
+       }
+       .formLogin legend{
+           background-color: rgb(255, 255, 255);
+           display: inline-block;
+           padding: 10px;
+       }
+       #user, #pass, .btn{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 18px;
+        border: none;
+       }
+       #user:focus, #pass:focus{
+        background-color:rgb(195, 195, 202) ;
+       }
+       .btn{
+           margin-top: 15px;
+           padding: 15px;
+       }
+       #user{
+           margin-bottom: 15px ;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Formulário de Login</h1>
+
+    <form action="#" method="POST" class="formLogin">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="user">Digite o seu usuário:</label>
+            <input type="text" id="user" name="user" autofocus>
+
+            <label for="pass">Digite a senha: </label>
+            <input type="password" id="pass" name="pass">
+
+            <input type="submit" value="Logar" class="btn">
+
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
